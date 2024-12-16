@@ -1,4 +1,5 @@
-"How Big is Big Enough?'' Adjusting Model Size in Continual Gaussian Processes
+Adjusting Model Size in Continual Gaussian Processes: How Big is Big Enough?
 ===========================================================
 
-Code coming soon.
+In NeurIPS 2024 Workshop on Bayesian Decision-making and Uncertainty, Vancouver, Canada. 
+
