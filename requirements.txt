@@ -1,0 +1,12 @@
+# local package
+-e .
+
+# external requirements
+gpflow 
+tensorflow-macos==2.12 # for macos new machines, use tensorflow-macos instead 
+tensorflow-probability==0.20
+numpy
+matplotlib
+pandas
+scikit-learn
+pyyaml
