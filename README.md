@@ -61,10 +61,10 @@ The configuration for each data set should be set in ```experiments/uci/configs.
 - bike (17379, 17)
 - naval (11934, 14)
 
-To run multiple hyperparameters for the UCI datasets, run:
+<!-- To run multiple hyperparameters for the UCI datasets, run:
 ```python3 experiments/uci/uci_pareto.py --datasets {dataset1} {dataset2} ...```
 and plot results using
-```python3 experiments/uci/uci_plot_pareto.py --datasets {dataset1} {dataset2} ...```
+```python3 experiments/uci/uci_plot_pareto.py --datasets {dataset1} {dataset2} ...``` -->
 
 
 ### Magnetometer
