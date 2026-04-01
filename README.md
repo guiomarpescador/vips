@@ -27,6 +27,7 @@ and for plotting the results:
 Results and plots will be saved in ```experiments/toy/results/```.
 
 ### Timing experiments
+
 Run the following command to reproduce the experiments for the timing experiments:
 ```python3 experiments/uci/uci_metrics.py --dataset naval_time --method {method}```,
 where ```{method}``` is the inducing points selection method to use.
