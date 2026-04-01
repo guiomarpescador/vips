@@ -1,0 +1,28 @@
+dataset : naval
+
+regression_parameters:
+  no_batches: 20
+  seed: 0
+  n_k_folds: 
+  test_per_batch: True
+  order: True
+  
+
+methods:
+- Name: CV_100
+  method_parameters:
+    M: 100
+    eta: 0.0000001
+
+- Name: CV_1000
+  method_parameters:
+    M: 1000
+    eta: 0.0000000001
+
+- Name: VIPS
+  method_parameters:
+    delta: 0.05
+
+- Name: Gradient
+  method_parameters:
+    M: 100

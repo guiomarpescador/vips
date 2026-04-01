@@ -1,0 +1,25 @@
+dataset : skillcraft
+
+regression_parameters:
+  no_batches: 20
+  seed: 0
+  n_k_folds: 5
+  test_per_batch: True
+  order: True
+
+methods:
+- Name: CV
+  method_parameters:
+    M: 8000
+    eta: 0.01
+
+- Name: OIPS
+  method_parameters:
+    rho: 0.96
+
+- Name: VIPS
+  method_parameters:
+    delta: 0.05
+    
+- Name: Full_GP
+  method_parameters:

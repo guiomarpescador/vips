@@ -1,0 +1,24 @@
+VIPS:
+  concrete: {start: 0.005, stop: 0.15, increment: 0.005}
+  skillcraft: {}
+  kin8nm: {}
+  naval: {}
+  elevators: {}
+  bike: {}
+  
+CV:
+  concrete: {start: 0.005, stop: 1.5, midpoint: 0.15, lower_increment: 0.005, upper_increment: 0.01}
+  skillcraft: {}
+  kin8nm: {}
+  naval: {}
+  elevators: {}
+  bike: {}
+
+OIPS:
+  concrete: {start: 0.85, stop: 0.999, midpoint: 0.995, lower_increment: 0.005, upper_increment: 0.001}
+  skillcraft: {}
+  kin8nm: {}
+  naval: {}
+  elevators: {}
+  bike: {}
+  
